@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test1" time="29" tests="1" failures="0" errors="1">
+   <testsuite name="Test1" tests="1" failures="0" errors="1" time="29" timestamp="2019-02-02 14:31:31" hostname="DELLINSPIRON - DESKTOP-7TAC9CC" id="Test Suites/Test1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DELLINSPIRON\\Katalon Studio\\automationweb\\Reports\\Test1\\20190202_143127"/>
+         <property name="logFiles" value="C:\\Users\\DELLINSPIRON\\Katalon Studio\\automationweb\\Reports\\Test1\\20190202_143127\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELLINSPIRON - DESKTOP-7TAC9CC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.43.76"/>
+         <property name="sessionId" value="78aee6a8eda969e0cb72197a64008f0c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-02-02 14:31:32 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-02-02 14:31:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-02 14:31:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-02 14:31:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-02 14:31:48 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-02 14:31:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2019-02-02 14:31:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2019-02-02 14:31:52 - [TEST_STEP][PASSED] - setText: Text 'anggahermi@gmail.com' is set on object 'Object Repository/Page_Login - My Store/input_email'
+
+2019-02-02 14:31:53 - [MESSAGE][PASSED] - Text 'anggahermi@gmail.com' is set on object 'Object Repository/Page_Login - My Store/input_email'
+
+2019-02-02 14:31:53 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Login - My Store/input_passwd'
+
+2019-02-02 14:31:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login - My Store/input_passwd'
+
+2019-02-02 14:31:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2019-02-02 14:31:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2019-02-02 14:31:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My account - My Store/a_Sign out' is clicked on
+
+2019-02-02 14:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account - My Store/a_Sign out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browse" classname="Test Cases/Browse" status="ERROR">
+         <error type="ERROR" message="Test Cases/Browse FAILED because (of) Variable 'Keys' is not defined for test case."/>
+         <system-out><![CDATA[2019-02-02 14:31:58 - [TEST_CASE][ERROR] - Test Cases/Browse: Test Cases/Browse FAILED because (of) Variable 'Keys' is not defined for test case.
+
+2019-02-02 14:31:59 - [TEST_STEP][PASSED] - setText: Text 'shirt' is set on object 'Object Repository/browse/Page_My account - My Store/input_search_query'
+
+2019-02-02 14:31:59 - [MESSAGE][PASSED] - Text 'shirt' is set on object 'Object Repository/browse/Page_My account - My Store/input_search_query'
+
+2019-02-02 14:31:59 - [TEST_STEP][PASSED] - sendKeys: Finding Test Object with id 'Object Repository/browse/Page_My account - My Store/input_search_query']]></system-out>
+         <system-err><![CDATA[2019-02-02 14:31:58 - [TEST_CASE][ERROR] - Test Cases/Browse: Test Cases/Browse FAILED because (of) Variable 'Keys' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-02 14:31:31 - [TEST_SUITE][ERROR] - Test1: Test Cases/Browse FAILED because (of) Variable 'Keys' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2019-02-02 14:31:31 - [TEST_SUITE][ERROR] - Test1: Test Cases/Browse FAILED because (of) Variable 'Keys' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>
